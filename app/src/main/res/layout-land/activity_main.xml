@@ -24,7 +24,7 @@
         android:hint="Ex.: Rian"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        app:layout_constraintEnd_toStartOf="@id/btnAdd"
+        app:layout_constraintEnd_toStartOf="@id/lstNames"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txtLabel" />
 
@@ -45,8 +45,8 @@
         android:layout_marginTop="16px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtName"
+        app:layout_constraintStart_toEndOf="@+id/edtName"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
